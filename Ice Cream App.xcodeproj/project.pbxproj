@@ -3,50 +3,159 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 77;
+	objectVersion = 56;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		CB6757EFA18E2C9C76BDD63F /* Pods_Ice_Cream_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 031EF6B6CF7EF2396237C389 /* Pods_Ice_Cream_App.framework */; };
+		F19593392CD8CDDB00608B83 /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F195931D2CD8CDDB00608B83 /* AddViewController.swift */; };
+		F195933A2CD8CDDB00608B83 /* EditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F195931E2CD8CDDB00608B83 /* EditViewController.swift */; };
+		F195933B2CD8CDDB00608B83 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F195931F2CD8CDDB00608B83 /* HomeViewController.swift */; };
+		F195933C2CD8CDDB00608B83 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F19593202CD8CDDB00608B83 /* LoginViewController.swift */; };
+		F195933D2CD8CDDB00608B83 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F19593212CD8CDDB00608B83 /* RegisterViewController.swift */; };
+		F195933E2CD8CDDB00608B83 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F19593222CD8CDDB00608B83 /* WelcomeViewController.swift */; };
+		F195933F2CD8CDDB00608B83 /* Constans.swift in Sources */ = {isa = PBXBuildFile; fileRef = F19593242CD8CDDB00608B83 /* Constans.swift */; };
+		F19593402CD8CDDB00608B83 /* DownloadImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F19593252CD8CDDB00608B83 /* DownloadImage.swift */; };
+		F19593412CD8CDDB00608B83 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = F19593262CD8CDDB00608B83 /* Product.swift */; };
+		F19593422CD8CDDB00608B83 /* Transaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = F19593272CD8CDDB00608B83 /* Transaction.swift */; };
+		F19593432CD8CDDB00608B83 /* ProductTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F19593292CD8CDDB00608B83 /* ProductTableViewCell.swift */; };
+		F19593442CD8CDDB00608B83 /* TransactionsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F195932B2CD8CDDB00608B83 /* TransactionsTableViewCell.swift */; };
+		F19593452CD8CDDB00608B83 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F19593332CD8CDDB00608B83 /* AppDelegate.swift */; };
+		F19593462CD8CDDB00608B83 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F19593372CD8CDDB00608B83 /* SceneDelegate.swift */; };
+		F19593472CD8CDDB00608B83 /* ProductTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F195932A2CD8CDDB00608B83 /* ProductTableViewCell.xib */; };
+		F19593482CD8CDDB00608B83 /* TransactionsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F195932C2CD8CDDB00608B83 /* TransactionsTableViewCell.xib */; };
+		F19593492CD8CDDB00608B83 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F195932F2CD8CDDB00608B83 /* LaunchScreen.storyboard */; };
+		F195934A2CD8CDDB00608B83 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F19593312CD8CDDB00608B83 /* Main.storyboard */; };
+		F195934B2CD8CDDB00608B83 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F19593342CD8CDDB00608B83 /* Assets.xcassets */; };
+		F195934C2CD8CDDB00608B83 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F19593352CD8CDDB00608B83 /* GoogleService-Info.plist */; };
+		F19C15C52CD5A759000D8F30 /* IQKeyboardManagerSwift in Frameworks */ = {isa = PBXBuildFile; productRef = F19C15C42CD5A759000D8F30 /* IQKeyboardManagerSwift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
+		031EF6B6CF7EF2396237C389 /* Pods_Ice_Cream_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Ice_Cream_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		063F33FF8C4EC91CFA2F9C97 /* Pods-Ice Cream App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ice Cream App.release.xcconfig"; path = "Target Support Files/Pods-Ice Cream App/Pods-Ice Cream App.release.xcconfig"; sourceTree = "<group>"; };
+		C011C532DF31FA03944135F5 /* Pods-Ice Cream App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ice Cream App.debug.xcconfig"; path = "Target Support Files/Pods-Ice Cream App/Pods-Ice Cream App.debug.xcconfig"; sourceTree = "<group>"; };
+		F195931D2CD8CDDB00608B83 /* AddViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddViewController.swift; sourceTree = "<group>"; };
+		F195931E2CD8CDDB00608B83 /* EditViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditViewController.swift; sourceTree = "<group>"; };
+		F195931F2CD8CDDB00608B83 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		F19593202CD8CDDB00608B83 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		F19593212CD8CDDB00608B83 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		F19593222CD8CDDB00608B83 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		F19593242CD8CDDB00608B83 /* Constans.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constans.swift; sourceTree = "<group>"; };
+		F19593252CD8CDDB00608B83 /* DownloadImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadImage.swift; sourceTree = "<group>"; };
+		F19593262CD8CDDB00608B83 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		F19593272CD8CDDB00608B83 /* Transaction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transaction.swift; sourceTree = "<group>"; };
+		F19593292CD8CDDB00608B83 /* ProductTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductTableViewCell.swift; sourceTree = "<group>"; };
+		F195932A2CD8CDDB00608B83 /* ProductTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProductTableViewCell.xib; sourceTree = "<group>"; };
+		F195932B2CD8CDDB00608B83 /* TransactionsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionsTableViewCell.swift; sourceTree = "<group>"; };
+		F195932C2CD8CDDB00608B83 /* TransactionsTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TransactionsTableViewCell.xib; sourceTree = "<group>"; };
+		F195932E2CD8CDDB00608B83 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F19593302CD8CDDB00608B83 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F19593332CD8CDDB00608B83 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F19593342CD8CDDB00608B83 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F19593352CD8CDDB00608B83 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		F19593362CD8CDDB00608B83 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F19593372CD8CDDB00608B83 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		F19C157B2CD5938A000D8F30 /* Ice Cream App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ice Cream App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		F19C158D2CD5938C000D8F30 /* Exceptions for "Ice Cream App" folder in "Ice Cream App" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				Info.plist,
-			);
-			target = F19C157A2CD5938A000D8F30 /* Ice Cream App */;
-		};
-/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		F19C157D2CD5938A000D8F30 /* Ice Cream App */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				F19C158D2CD5938C000D8F30 /* Exceptions for "Ice Cream App" folder in "Ice Cream App" target */,
-			);
-			path = "Ice Cream App";
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		F19C15782CD5938A000D8F30 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CB6757EFA18E2C9C76BDD63F /* Pods_Ice_Cream_App.framework in Frameworks */,
+				F19C15C52CD5A759000D8F30 /* IQKeyboardManagerSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2CB7566CA3622E0445900FD2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C011C532DF31FA03944135F5 /* Pods-Ice Cream App.debug.xcconfig */,
+				063F33FF8C4EC91CFA2F9C97 /* Pods-Ice Cream App.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		5D89240AA5F4BE660EFAEEF3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				031EF6B6CF7EF2396237C389 /* Pods_Ice_Cream_App.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F19593232CD8CDDB00608B83 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				F195931D2CD8CDDB00608B83 /* AddViewController.swift */,
+				F195931E2CD8CDDB00608B83 /* EditViewController.swift */,
+				F195931F2CD8CDDB00608B83 /* HomeViewController.swift */,
+				F19593202CD8CDDB00608B83 /* LoginViewController.swift */,
+				F19593212CD8CDDB00608B83 /* RegisterViewController.swift */,
+				F19593222CD8CDDB00608B83 /* WelcomeViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		F19593282CD8CDDB00608B83 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F19593242CD8CDDB00608B83 /* Constans.swift */,
+				F19593252CD8CDDB00608B83 /* DownloadImage.swift */,
+				F19593262CD8CDDB00608B83 /* Product.swift */,
+				F19593272CD8CDDB00608B83 /* Transaction.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F195932D2CD8CDDB00608B83 /* TableCell */ = {
+			isa = PBXGroup;
+			children = (
+				F19593292CD8CDDB00608B83 /* ProductTableViewCell.swift */,
+				F195932A2CD8CDDB00608B83 /* ProductTableViewCell.xib */,
+				F195932B2CD8CDDB00608B83 /* TransactionsTableViewCell.swift */,
+				F195932C2CD8CDDB00608B83 /* TransactionsTableViewCell.xib */,
+			);
+			path = TableCell;
+			sourceTree = "<group>";
+		};
+		F19593322CD8CDDB00608B83 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F195932F2CD8CDDB00608B83 /* LaunchScreen.storyboard */,
+				F19593312CD8CDDB00608B83 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F19593382CD8CDDB00608B83 /* Ice Cream App */ = {
+			isa = PBXGroup;
+			children = (
+				F19593232CD8CDDB00608B83 /* Controllers */,
+				F19593282CD8CDDB00608B83 /* Model */,
+				F195932D2CD8CDDB00608B83 /* TableCell */,
+				F19593322CD8CDDB00608B83 /* View */,
+				F19593332CD8CDDB00608B83 /* AppDelegate.swift */,
+				F19593342CD8CDDB00608B83 /* Assets.xcassets */,
+				F19593352CD8CDDB00608B83 /* GoogleService-Info.plist */,
+				F19593362CD8CDDB00608B83 /* Info.plist */,
+				F19593372CD8CDDB00608B83 /* SceneDelegate.swift */,
+			);
+			path = "Ice Cream App";
+			sourceTree = "<group>";
+		};
 		F19C15722CD5938A000D8F30 = {
 			isa = PBXGroup;
 			children = (
-				F19C157D2CD5938A000D8F30 /* Ice Cream App */,
+				F19593382CD8CDDB00608B83 /* Ice Cream App */,
 				F19C157C2CD5938A000D8F30 /* Products */,
+				2CB7566CA3622E0445900FD2 /* Pods */,
+				5D89240AA5F4BE660EFAEEF3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -65,20 +174,17 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F19C158E2CD5938C000D8F30 /* Build configuration list for PBXNativeTarget "Ice Cream App" */;
 			buildPhases = (
+				5354DB7CBBA0484EEF51CD2E /* [CP] Check Pods Manifest.lock */,
 				F19C15772CD5938A000D8F30 /* Sources */,
 				F19C15782CD5938A000D8F30 /* Frameworks */,
 				F19C15792CD5938A000D8F30 /* Resources */,
+				687819FADB1C74068BA389F6 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			fileSystemSynchronizedGroups = (
-				F19C157D2CD5938A000D8F30 /* Ice Cream App */,
-			);
 			name = "Ice Cream App";
-			packageProductDependencies = (
-			);
 			productName = "Ice Cream App";
 			productReference = F19C157B2CD5938A000D8F30 /* Ice Cream App.app */;
 			productType = "com.apple.product-type.application";
@@ -99,6 +205,7 @@
 				};
 			};
 			buildConfigurationList = F19C15762CD5938A000D8F30 /* Build configuration list for PBXProject "Ice Cream App" */;
+			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -106,8 +213,9 @@
 				Base,
 			);
 			mainGroup = F19C15722CD5938A000D8F30;
-			minimizedProjectReferenceProxies = 1;
-			preferredProjectObjectVersion = 77;
+			packageReferences = (
+				F19C15C32CD5A759000D8F30 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */,
+			);
 			productRefGroup = F19C157C2CD5938A000D8F30 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -122,24 +230,106 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F19593472CD8CDDB00608B83 /* ProductTableViewCell.xib in Resources */,
+				F19593482CD8CDDB00608B83 /* TransactionsTableViewCell.xib in Resources */,
+				F19593492CD8CDDB00608B83 /* LaunchScreen.storyboard in Resources */,
+				F195934A2CD8CDDB00608B83 /* Main.storyboard in Resources */,
+				F195934B2CD8CDDB00608B83 /* Assets.xcassets in Resources */,
+				F195934C2CD8CDDB00608B83 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5354DB7CBBA0484EEF51CD2E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Ice Cream App-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		687819FADB1C74068BA389F6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Ice Cream App/Pods-Ice Cream App-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Ice Cream App/Pods-Ice Cream App-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Ice Cream App/Pods-Ice Cream App-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		F19C15772CD5938A000D8F30 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F19593392CD8CDDB00608B83 /* AddViewController.swift in Sources */,
+				F195933A2CD8CDDB00608B83 /* EditViewController.swift in Sources */,
+				F195933B2CD8CDDB00608B83 /* HomeViewController.swift in Sources */,
+				F195933C2CD8CDDB00608B83 /* LoginViewController.swift in Sources */,
+				F195933D2CD8CDDB00608B83 /* RegisterViewController.swift in Sources */,
+				F195933E2CD8CDDB00608B83 /* WelcomeViewController.swift in Sources */,
+				F195933F2CD8CDDB00608B83 /* Constans.swift in Sources */,
+				F19593402CD8CDDB00608B83 /* DownloadImage.swift in Sources */,
+				F19593412CD8CDDB00608B83 /* Product.swift in Sources */,
+				F19593422CD8CDDB00608B83 /* Transaction.swift in Sources */,
+				F19593432CD8CDDB00608B83 /* ProductTableViewCell.swift in Sources */,
+				F19593442CD8CDDB00608B83 /* TransactionsTableViewCell.swift in Sources */,
+				F19593452CD8CDDB00608B83 /* AppDelegate.swift in Sources */,
+				F19593462CD8CDDB00608B83 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXVariantGroup section */
+		F195932F2CD8CDDB00608B83 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F195932E2CD8CDDB00608B83 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		F19593312CD8CDDB00608B83 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F19593302CD8CDDB00608B83 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
 /* Begin XCBuildConfiguration section */
 		F19C158F2CD5938C000D8F30 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C011C532DF31FA03944135F5 /* Pods-Ice Cream App.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -153,6 +343,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -168,6 +359,7 @@
 		};
 		F19C15902CD5938C000D8F30 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 063F33FF8C4EC91CFA2F9C97 /* Pods-Ice Cream App.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -181,6 +373,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -231,7 +424,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -294,7 +487,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -335,6 +528,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		F19C15C32CD5A759000D8F30 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/hackiftekhar/IQKeyboardManager";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.2.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		F19C15C42CD5A759000D8F30 /* IQKeyboardManagerSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F19C15C32CD5A759000D8F30 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */;
+			productName = IQKeyboardManagerSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = F19C15732CD5938A000D8F30 /* Project object */;
 }
